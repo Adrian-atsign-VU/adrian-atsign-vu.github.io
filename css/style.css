@@ -1,0 +1,61 @@
+body{
+  background-color: #222;
+  color: #dfdfdf;
+  background-image: url('../images/postmanpat.png');
+  background-repeat: repeat;
+  background-size: auto 250px;}
+#vubanner{
+  max-width: 400px;
+  height: auto;
+}
+.susemail{
+  max-width: 250px;
+  height: auto;
+  transition: all 0.6s ease;
+  border: 5px solid #ce4e4e;
+
+}
+.susemail:hover{
+  max-width: 700px;
+  height: auto;
+  border: 5px solid #fff;
+}
+h4 {
+  background-color: #ce4e4e;
+  padding: 10px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+h4:hover{
+    background-color: #8C3030;
+    padding: 10px;
+    font-weight: bold;
+  }
+  nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  background-color: #ce4e4e;
+  padding: 10px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+nav ul li:hover {
+  background-color: #8C3030;
+  padding: 10px;
+  font-weight: bold;
+}
+
+nav ul li a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #fff;
+}
