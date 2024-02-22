@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Adrian@VU</title>
-  <meta name="description" content="Cyber Helping Site For VU Students">
+  <meta name="description" content="Cyber Based Helping Site For UNI Students">
   <meta name="author" content="Adrian">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,6 +19,16 @@
     }
     #vubanner{
       max-width: 400px;
+      height: auto;
+    }
+    .susemail{
+      max-width: 350px;
+      height: auto;
+      transition: all 0.6s ease; /* Smooth transition for all properties */
+    }
+    .susemail:hover{
+      max-width: 650px;
+      height: auto;
     }
   </style>
 
@@ -52,7 +62,7 @@
   </div>
 </div>
 
-<div class="row">
+<div class="row" id="passwordmanagerdiv">
   <div class="one-half column" style="margin-top: 5%">
     <h4>Best Password Managers</h4>
     <p><a href="https://keepass.info/" target="_blank">KeePass (Offline)</a></p>
@@ -72,6 +82,8 @@
   <div class="one-half column" style="margin-top: 5%">
     <h4>Best Web Browsers</h4>
     <p>For the majority, using <a href="https://brave.com/" target="_blank">Brave</a> (similar to Chrome) or <a href="https://www.mozilla.org/en-US/firefox/" target="_blank">Firefox</a>, along with uBlock and Privacy Badger extensions, and tweaking some settings, provides a secure way to stop some trackers and pop-ups. This is notably safer than standard Chrome or Edge.</p>
+    <h5>Best Web Sheach Engines To Go With It</h5>
+    <p>Brave Search or DuckDuckGo is gonna be better then Bing or Google.</p>
   </div>
 </div>
 
@@ -107,7 +119,7 @@
     <p>Only Enter Your Details On HTTPS sites or sites you trust, also never use the same password twice.</p>
   </div>
 </div>
-    
+
 <div class="row">
   <div class="one-half column" style="margin-top: 5%">
     <h4>Secure File Sharing</h4>
@@ -115,10 +127,10 @@
   </div>
 </div>
 
-<div class="row">
+<div class="row" id="readmoreaboutemails">
   <div class="one-half column" style="margin-top: 5%">
     <h4>Email Security</h4>
-    <p>Be cautious of email attachments and links; verify the sender's legitimacy before clicking on any links.</p>
+    <p>Be cautious of email attachments and links; verify the sender's legitimacy before clicking on any links. <a href="#examplesofemailsthataresus">(Examples of emails that are sus).</a></p>
   </div>
 </div>
 
@@ -126,28 +138,63 @@
   <div class="one-half column" style="margin-top: 5%">
     <h4>Backup Data</h4>
     <p>Regularly back up important data to prevent loss in case of hardware failure or cyber attacks.</p>
-    <li>Multiple backups offline is better for stoping data leaked, online for convenients.</li>
+    <ul>
+      <li>Store backups in multiple locations, including (and in my opinion a must) offline storage, to prevent data loss.</li>
+      <li>Encrypt backup files to protect sensitive information.</li>
+      <li>Test your backup systems regularly, also try to avoid online clouds.</li>
+    </ul>
   </div>
 </div>
 
-<div class="row">
+<div class="row" id="likestayingprivatediv">
   <div class="one-half column" style="margin-top: 5%">
     <h4>Social Media Privacy Settings</h4>
     <p>Review and adjust privacy settings on social media platforms to control the visibility of your personal information.</p>
+    <ul>
+      <li>Limit the amount of personal information you share on social media profiles!</li>
+      <li>Change accounts to private <a href="#findouthow">(Find Out How).</a></li>
+      <li>Avoid accepting friend requests or connections from unknown individuals.</li>
+    </ul>
   </div>
 </div>
+
+<div class="row" id="findouthow">
+  <div class="one-half column" style="margin-top: 5%">
+    <h4>Changing Account to Private on Social Media Platforms</h4>
+    <p>Below are steps to change your account settings to private on various social media platforms. Please note that platform interfaces and features may change over time, so the following information might be subject to updates.</p>
+    <ul>
+      <li><strong>Instagram:</strong> Go to your profile, tap the menu icon (≡), select "Settings," tap "Privacy," then toggle on "Private Account."</li>
+      <li><strong>Facebook:</strong> Click on the downward arrow at the top right corner, select "Settings & Privacy," go to "Privacy Shortcuts," then choose "Who can see your future posts?" and select "Friends" or "Only me."</li>
+      <li><strong>Twitter:</strong> Click on your profile icon, select "Settings and privacy," navigate to the "Privacy and safety" section, and check the box next to "Protect your Tweets."</li>
+      <li><strong>Pinterest:</strong> Click on your profile picture, select "Settings," go to "Privacy and data," then toggle on "Keep your account private."</li>
+      <li><strong>LinkedIn:</strong> Click on "Me" in the top menu, select "Settings & Privacy," navigate to the "Visibility" section, and adjust your settings under "Visibility of your profile & network."</li>
+      <li><strong>Snapchat:</strong> Tap on your profile icon, select the gear icon (Settings), go to "Who Can…" and adjust settings for who can contact you and view your story.</li>
+    </ul>
+  </div>
+</div>
+
 
 <div class="row">
   <div class="one-half column" style="margin-top: 5%">
     <h4>Limit Personal Information</h4>
     <p>Avoid oversharing personal information online, and be cautious about the information you reveal on social media.</p>
+    <ul>
+      <li>Think twice before sharing sensitive information such as your address, phone number, or birthdate.. hell even shoe size.</li>
+      <li>Avoid posting details about upcoming vacations or extended periods away from home.</li>
+      <li>Consider using privacy controls to restrict access to personal posts and photos. <a href="#likestayingprivatediv">(Like staying private).</a></li>
+    </ul>
   </div>
 </div>
 
 <div class="row">
   <div class="one-half column" style="margin-top: 5%">
     <h4>Phishing Awareness</h4>
-    <p>Be vigilant against phishing attempts; verify the legitimacy of websites and emails, especially those requesting sensitive information.</p>
+    <p>Stop phishing attempts; verify the legitimacy of websites and emails, especially those requesting sensitive information.</p>
+    <ul>
+      <li>Check for misspellings or unusual email addresses in suspicious emails, e.g. different language or fonts.</li>
+      <li>Avoid clicking on links or downloading attachments from unknown or unsolicited sources.</li>
+      <li>When in doubt, contact the people directly through official channels to verify requests for personal or financial information. (btw your bank or microsoft WILL NOT call you for your passwords).</li>
+    </ul>
   </div>
 </div>
 
@@ -155,15 +202,38 @@
   <div class="one-half column" style="margin-top: 5%">
     <h4>Multiple Authentication Layers</h4>
     <p>Enable multi-factor authentication whenever possible for an extra layer of security.</p>
+    <ul>
+      <li>Use a combination of password, biometric (if you have to..), or token-based authentication methods for added security.</li>
+      <li>Review and update authentication settings</li>
+      <li>Avoid using easily guessable passwords and consider using a <a href="#passwordmanagerdiv">password manager</a> to securely store and manage login credentials.</li>
+    </ul>
   </div>
 </div>
-    
-    <div style="margin-top: 5%" class="row"><p>Site/Info Made By: Adrian@VU 2024 - UPDATED LAST 22/02/24 14:24 v1.1 - If you are reading this from the future more than like this is out of date, keep learning. Also take everything i say with a grain of salt.</p></div>
+
+
+<div class="row" id="examplesofemailsthataresus">
+  <div class="one-half column" style="margin-top: 5%">
+    <h4>Sus Emails</h4>
+    <p><a href="#readmoreaboutemails">Read More About Emails</a> </p>
+    <img class="susemail" src="images/susemail/susemail1.jpeg" alt="susemail">
+    <img class="susemail" src="images/susemail/susemail2.png" alt="susemail">
+    <img class="susemail" src="images/susemail/susemail3.png" alt="susemail">
+    <img class="susemail" src="images/susemail/susemail4.png" alt="susemail">
+    <img class="susemail" src="images/susemail/susemail5.webp" alt="susemail">
+    <img class="susemail" src="images/susemail/susemail6.jpg" alt="susemail">
+    <p>All these emails have one thing out of place, your job is to find em.</p>
+    <p>Hover over them with mouse or right click open in new tab to read better.</p>
+  </div>
+</div>
+
+
+
+    <div style="margin-top: 5%" class="row"><p>Site/Info Made By: Adrian@VU 2024 - UPDATED LAST 22/02/24 17:35 v1.2 - If you are reading this from the future more than likely this is out of date, keep learning. Also take everything i say with a grain of salt.</p></div>
 
   </div>
-  
+
 <!-- Stop sticking ur nose in here
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-   
+
 </body>
 </html>
