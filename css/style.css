@@ -9,7 +9,7 @@ body{
   height: auto;
 }
 .susemail{
-  max-width: 250px;
+  max-width: 80px;
   height: auto;
   transition: all 0.6s ease;
   border: 5px solid #ce4e4e;
@@ -43,6 +43,7 @@ nav ul li {
   padding: 10px;
   font-weight: bold;
   transition: all 0.3s ease;
+  line-height: 44px;
 }
 nav ul li:hover {
   background-color: #8C3030;
@@ -58,4 +59,9 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #fff;
+}
+.imgblock{ display: inline-flex;}
+
+#steps{
+  background-color: #4e77ce !important;
 }
