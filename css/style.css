@@ -65,3 +65,11 @@ nav ul li a:hover {
 #steps{
   background-color: #4e77ce !important;
 }
+#banner{
+  max-width: 600px;
+}
+@media screen and (max-width: 500px) {
+  #banner {
+    max-width: 378px;
+  }
+}
